@@ -1,0 +1,1 @@
+export const REGISTER_DATA_POST = 'REGISTER_DATA_POST'

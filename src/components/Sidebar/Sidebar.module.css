@@ -1,0 +1,21 @@
+.root {
+	width: 250px;
+	height: 529px;
+	background: #f3f3f3;
+}
+
+.links {
+	margin-top: 20px;
+	padding: 0;
+}
+
+.links > li {
+	list-style: none;
+	margin-top: 4px;
+	padding: 13px 20px 13px 30px;
+	cursor: pointer;
+}
+
+.active {
+	background: #fff;
+}

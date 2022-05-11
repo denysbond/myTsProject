@@ -1,0 +1,7 @@
+.root {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	padding: 5px;
+	margin-top: 20px;
+}

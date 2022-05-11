@@ -1,0 +1,25 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	/* top: 50%; */
+	left: 40%;
+	/* transform: translate(-50%, -50%); */
+}
+
+.field {
+	width: 250px;
+	border: none;
+	color: #6c6c6c;
+	border-bottom: 1px solid #c4c4c4;
+	margin-top: 25px;
+	padding-bottom: 5px;
+	outline: none;
+}
+.button {
+	width: 251px;
+	height: 40px;
+	color: #464646;
+	background: #b8b8b8;
+	margin-top: 50px;
+}

@@ -1,0 +1,8 @@
+.root {
+	width: calc(100% - 250px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 150px;
+	margin-top: 50px;
+}

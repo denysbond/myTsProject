@@ -1,0 +1,35 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	/* top: 50%; */
+	left: 40%;
+	/* transform: translate(-50%, -50%); */
+}
+
+.field {
+	width: 250px;
+	border: none;
+	color: #6c6c6c;
+	border-bottom: 1px solid #c4c4c4;
+	margin-top: 25px;
+	padding-bottom: 5px;
+	outline: none;
+}
+.button {
+	width: 251px;
+	height: 40px;
+	color: #464646;
+	background: #b8b8b8;
+	margin-top: 50px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	-webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
+	-webkit-transition-delay: 9999s;
+
+	font-size: 16px !important;
+}

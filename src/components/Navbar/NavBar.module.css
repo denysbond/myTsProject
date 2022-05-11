@@ -1,0 +1,12 @@
+.root {
+	height: 80px;
+	background: #dddddd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contentBlock {
+	display: flex;
+	align-items: center;
+}

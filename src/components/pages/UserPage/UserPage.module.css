@@ -1,0 +1,41 @@
+.root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: calc(100% - 250px);
+}
+
+.header {
+	display: flex;
+	width: 70%;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.inputBlock {
+	position: relative;
+}
+
+.input {
+	width: 310px;
+	border: none;
+	color: #6c6c6c;
+	border-bottom: 1px solid #c4c4c4;
+	padding-bottom: 5px;
+	outline: none;
+}
+
+.searchLogo {
+	position: absolute;
+	right: 2px;
+	cursor: pointer;
+}
+
+.contentBlockUser {
+	width: 156px;
+	text-align: end;
+}
+
+.contentBlockUser > img {
+	margin-right: 10px;
+}
